@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    position: relative;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+    border: 0.2px solid rgb(250, 250, 250);
+    display: flex;
+    background: transparent;
+    align-items: center;
+}
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition:0.4s;
+}
+.logo-img:hover{
+    box-shadow: 0.2px 0.3px 2px whitesmoke;
+    transition: box-shadow 0.3s;
+}
+
+
+.navigation {
+    width: 300px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(249, 248, 248);
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    font-size: x-small;
+    list-style: none;
+    position: absolute;
+    right: 6%;
+    top: 33%;
+}
+
+
+.logo{
+    width:40px;
+    height: 40px;
+    margin-left: 10px;
+    display: inline-block;
+    
+}
+.logo-text{
+    margin-left: 8px;
+    color: whitesmoke;
+    font-size: x-small;
+}
+
+.sec-second{
+    height: 100vh;
+    background-image: url(Assets01/sagittarius-a-black-5120x2880-25401.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec-third{
+    height: 100vh;
+    background-image: url(Assets01/stars.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profile{
+    position: absolute;
+    left: 160px;
+    top: 5px;
+    height: 150px;
+    position: absolute;
+    filter: blur(0.255px);
+    transition: filter 0.4s;
+
+
+}
+.profile{
+    filter: blur(0px);
+    transition: 0.1s;
+}
+.profile-div{
+    height: 150px;
+    width: 250px;
+    margin-top: 80px;
+    padding-left: 40px;
+    display: flex;
+    border-radius: 15px;
+    transition: 1s;
+    position:absolute;
+    
+}
+.profile-div img{
+    display: flex;
+    justify-content: flex-end;
+}
+.profile-div:hover{
+    transition: 1.6s;
+    background: rgba(93, 93, 93, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+.profile-text1{
+    padding-top:15px;
+    height: 35px;
+}
+
+.profile-text1 span{
+    padding-left: 6px;
+    font-size:medium;
+    color: white;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.profile-text1 span:hover{
+    font-weight: bolder;
+    color:rgb(223, 150, 13);
+    font-size:large;
+    cursor:grabbing;
+    transition: color 0.3s;
+}
+.profile-text2{
+    color: white;
+    margin-top: 30px;
+    font-size: small;
+    margin-right: 17px;
+    position: relative;
+    left: 0;
+    margin-right: 100px;
+}
